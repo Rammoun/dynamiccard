@@ -1,0 +1,22 @@
+body {
+  color: white;
+  margin: 0;
+  padding: 0;
+  height: 350px; width: 550px;/*display: flex; flex-direction: column; */
+}
+.cardHead{text-align: right; }
+.cardChip{width: 15%; padding: 0 3%;}
+.cardNumber{color: yellow; font-size: 170%; background-color: rgba(150, 150, 0, .3); text-shadow: 2px 2px 2px black;}
+/*//   */
+.month{font-size: .9em;}
+.expDate{font-size: 200%; font-weight: bolder;}
+.valThru{font-size: .9em;}
+.expdatefull{ display: flex; flex-direction: column; align-items: flex-end; text-shadow: -4px 4px 5px black; }
+.lastLine{display: flex; justify-content: space-around;}
+.master{flex-basis: 20%; height: 25%;}
+.card{background-color: rgba(0, 0, 0, .5);border-radius: 7px; 
+  background-image: url(http://images6.fanpop.com/image/photos/39400000/Magical-earth-earth-planet-39492924-2880-1800.jpg);
+  background-size: cover; background-repeat: no-repeat; padding: 1% 2%; margin: 1%;}
+.final{display: flex;}
+.form{display: flex; flex-direction: column; justify-content: center;}
+.form input{border: 2px aqua solid; border-radius: 4px; margin-top: 7%; width: 250px; font-size: 150%;}
